@@ -37,7 +37,7 @@ export default function SearchPage() {
 
     return (
         <>
-            <section>
+            <section className="page-intro-section">
                 <h2 className="page-heading">Find Your Next Favorite Book</h2>
                 <p className="page-intro">Use the search bar to find books by title. Whether you are looking for a specific book or exploring new reads, this is where your reading journet begins. Once you find a book you like, you can add it to your <Link className="link" to="/collection">personal collection</Link> for future reading</p>
             </section>
